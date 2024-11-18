@@ -11,5 +11,11 @@ config_version=5
 [application]
 
 config/name="MyGame"
+run/main_scene="res://plinko.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[physics]
+
+3d/default_gravity=19.6
+2d/default_gravity=4900.0
